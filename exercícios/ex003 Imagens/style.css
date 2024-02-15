@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(to right, rgb(98, 0, 255), rgb(77, 0, 150));
+    font-family: 'Work Sans', sans-serif;
+  color: white;
+  
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+#html{
+    background-image: linear-gradient(to right, rgb(98, 0, 255), rgb(77, 0, 150));
+    width: 350px;
+    height: auto;
+    padding: 15px;
+    margin: 10px;
+     border-radius: 15px 15px 15px 15px;
+     text-align: center;
+     box-shadow: inset 0px 0px 20px 0px #0000008c;
+}
+#css{
+    background-image: linear-gradient(to right, rgb(98, 0, 255), rgb(77, 0, 150));
+    width: 350px;
+    height: auto;
+    padding: 15px;
+     border-radius: 15px 15px 15px 15px;
+     text-align: center;
+     box-shadow: inset 0px 0px 20px 0px #0000008c;
+     margin: 10px;
+}
+#javascript{
+    background-image: linear-gradient(to right, rgb(98, 0, 255), rgb(77, 0, 150));
+    width: 350px;
+    height: auto;
+    padding: 15px;
+     border-radius: 15px 15px 15px 15px;
+     text-align: center;
+     box-shadow: inset 0px 0px 20px 0px #0000008c;
+     margin: 10px;
+}
+#titulo{
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(31, 144, 189);
+}
+img{
+    align-self: center;
+    padding: 10px 45px;
+    
+
+}
