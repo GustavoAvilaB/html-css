@@ -4,11 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centralização vertical</title>
+    <style>
+        div#fora{
+            height: 97vh;
+            position: relative;
+            background-color: #BD7DF5;
+        }
+        div#dentro{
+            height: 200px;
+            min-width: 300px;
+            position: absolute;
+            background-color: #F5FF48;
+            left: 25%;
+            top: 50%;
+            transform: translate(-25%, -50%);
+        }
+        div#dentro2{
+            height: 200px;
+            min-width: 300px;
+            position: absolute;
+            background-color: #F5FF48;
+            left: 75%;
+            top: 50%;
+            transform: translate(-75%, -50%);
+        }
+        div#olhoesquerdo{
+            height: 100px;
+            min-width: 70px;
+            position: absolute;
+            background-color: #9aa029;
+            left: 75%;
+            top: 50%;
+            transform: translate(-75%, -50%);
+        }
+        div#olhodireito{
+            height: 100px;
+            min-width: 70px;
+            position: absolute;
+            background-color: #9aa029;
+            left: 75%;
+            top: 50%;
+            transform: translate(-75%, -50%);
+            
+        }
+    </style>
 </head>
 <body>
     <div id="fora">
         <div id="dentro">
+            <div id="olhoesquerdo">
 
+            </div>
+        </div>
+        <div id="dentro2">
+            <div id="olhodireito">
+
+            </div>
         </div>
     </div>
 </body>
