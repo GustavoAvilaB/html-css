@@ -16,27 +16,37 @@
             --fonte2:"Sriracha", cursive, serif;
         }
         body{
+            margin: 0px;
+            padding: 0px;
             height: 96vh;
             background-color: rgb(247, 219, 159);
         }
         main{
             margin: auto;
+            max-height: 300em;
         }
         header{
             background-color: black;
             color: white;
-            padding: 10px;
+            padding: 10px 10px 30px 10px;
             margin: auto;
-            text-align: center;
-            font-size: medium;
-            max-width: 700px;
+            text-align: center;           
+            max-width: 500px;
             min-width: 400px;
         }
         header > h1{
             font-family: var(--fonte1);
+            font-size: 60px;    
+            font-weight: 400;
+            margin-bottom: 0px;
+            font-variant: small-caps;
+            text-shadow: 1px 1px rgb(0, 0, 0);
         }
         header > h2{
             margin-bottom: 0px;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
         }
         a{
             text-decoration: none;
@@ -48,20 +58,48 @@
         }
         section{
             background-color: white;
-            min-height: 400px;
-            max-width: 700px;
+            min-height: 600px;
+            max-width: 520px;
             min-width: 400px;
             text-align: left;
-            padding: 10px;
+            padding-top: 5px;
             margin: auto;
+            font-size: 1em;
+            font-weight: bold;
         }
         section > p {
             font-family: var(--fonte2);
             margin-top: 0px;
-            width: 150px;
-
+            width: 200px;
+            line-height: 2.5em;    
+            padding: 20px 15px;
+            margin-top: 1em;    
+            font-style: italic; 
         }
-        
+        article{
+            height: 400px;
+            margin: 50px 0px;
+            padding: 100px 0px;
+            max-width: 800px;
+            background-image: url(imagens/background001.jpg);
+            background-position: bottom right; 
+            background-size: cover;
+        }
+        #artigo{
+            color: rgba(255, 255, 255, 0.904);
+            background-color: rgba(0, 0, 0, 0.329);
+            font-family: var(--fonte2);
+            margin-top: 0px;
+            width: 225px;
+            line-height: 2.5em;   
+            padding: 20px 15px;
+            margin-top: 1em; 
+            font-weight: bold;
+            font-style: italic;
+        }
+        #final{
+            padding-bottom: 5px;
+        }
     </style>
 </head>
 <body>
@@ -71,17 +109,40 @@
 <h2>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank" rel="nofollow"><strong>Milton Duarte</strong></a></h2>
         </header>
         <section>
-            <p>Estou ficando cansado
-                Da tal tecnologia
-                Só se fala por e-mail
-                Mensagem curta e fria
-                Twitter e Facebook
-                Antes que eu caduque
-                Vou dizer tudo em poesia.
+            <p>
+                    Estou ficando cansado
+                        Da tal tecnologia
+                        Só se fala por e-mail
+                        Mensagem curta e fria
+                        Twitter e Facebook
+                        Antes que eu caduque
+                        Vou dizer tudo em poesia.
                 </p>
             <article>
-
+            <p id="artigo">Não é mais como era antes
+                É tudo abreviado
+                "Você" só tem duas letras
+                O "O" e o "E" foi riscado
+                Para declarar o amor
+                Basta botar uma flor
+                E um coração desenhado.
+            </p>
             </article>
+            <p>
+                Arroba agora não pesa
+                É parte de um endereço
+                Ponto final nem se usa
+                Ou vai até no começo
+                Agora é .com
+                Se o saite é muito bom
+                Ele vale um alto preço.
+            </p>
+                <p id="final">
+                   
+                        Pra piorar a liguagem
+                        O emoticom é um risco
+                        Tem símbolo para tudo
+                </p>
         </section>
     </main>
     
