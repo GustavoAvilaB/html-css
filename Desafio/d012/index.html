@@ -54,48 +54,95 @@
         section{
             background-color: white;
             text-align: left;
-            padding-top: 5px;
-            height: 100vh;
-            margin: auto;
             font-size: 1em;
-            font-weight: bold;
+            font-weight: 800;
+            font-stretch: expanded;
         }
-        div{
-            width: 200px;
-        }
-        div > p {
+        section > p {
             font-family: var(--fonte2);
-            margin-top: 0px;
-            font-size: 2vw;
-            display: block;
-            line-height: 3;    
-            padding: 20px 15px;
-            margin-top: 1em;    
+            font-size: 3.5vw;
+            line-height: 2.5;        
             font-style: italic; 
+            white-space: pre;
+            margin: 0px;
+            padding: 0px;
+            padding-left: 20px;
         }
         article{
-            height: 400px;
-            margin: 50px 0px;
-            padding: 100px 0px;
-            max-width: 800px;
+            height: 55vw;
+            max-width: 100vw;
+            min-width: 90vw;
+            padding-bottom: 25%;
             background-image: url(imagens/background001.jpg);
-            background-position: bottom right; 
             background-size: cover;
+            background-attachment: fixed;
+            box-shadow: 1px 1px 20px 0px inset rgba(0, 0, 0, 0.514);
+            
         }
-        #artigo{
+     article > span{
             color: rgba(255, 255, 255, 0.904);
-            background-color: rgba(0, 0, 0, 0.329);
+            font-size: 3.5vw;
+            line-height: 2em;
             font-family: var(--fonte2);
             margin-top: 0px;
-            width: 225px;
-            line-height: 2.5em;   
-            padding: 20px 15px;
-            margin-top: 1em; 
+            width: 500px;
+            height: 300px;
+            white-space: pre;
+            padding: 10px 20px; 
+            font-weight: bold;
+            font-style: italic;
+            
+        }
+        span > p{
+             background-color: rgba(0, 0, 0, 0.329);
+             max-width: 50%;
+             min-width: 30%;
+             max-height: 100%;
+             margin: 0px 0px 0px 25px;
+             padding: 0px 15px 40px 20px;
+        }
+        div > span{
+            color: rgba(255, 255, 255, 0.904);
+            font-size: 3.5vw;
+            line-height: 2em;
+            font-family: var(--fonte2);
+            margin-top: 0px;
+            width: 500px;
+            height: 300px;
+            white-space: pre;
+            padding: 10px 20px; 
             font-weight: bold;
             font-style: italic;
         }
-        #final{
-            padding-bottom: 5px;
+        div{
+            height: 55vw;
+            max-width: 100vw;
+            min-width: 90vw;
+            padding-bottom: 25%;
+            background-image: url(imagens/background002.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            box-shadow: 1px 1px 20px 0px inset rgba(0, 0, 0, 0.514)
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            margin: auto;
+            text-align: center;
+            font-size: medium;
+            padding: 1px 0px;
+            letter-spacing: 0.5px;
+        }
+        footer > p{
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+            font-size: 1vw;
+            font-weight: 600;
+        }
+        a:hover{
+            color: white;
+
         }
     </style>
 </head>
@@ -106,44 +153,83 @@
 <h2>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank" rel="nofollow"><strong>Milton Duarte</strong></a></h2>
         </header>
         <section>
-            <div>
-                <p>
-                           Estou ficando cansado
-                           Da tal tecnologia
-                           Só se fala por e-mail
-                           Mensagem curta e fria
-                           Twitter e Facebook
-                           Antes que eu caduque
-                           Vou dizer tudo em poesia.
-                         </p>
-            </div>
-            <article>
-            <p id="artigo">Não é mais como era antes
-                É tudo abreviado
-                "Você" só tem duas letras
-                O "O" e o "E" foi riscado
-                Para declarar o amor
-                Basta botar uma flor
-                E um coração desenhado.
-            </p>
-            </article>
-            <p>
-                Arroba agora não pesa
-                É parte de um endereço
-                Ponto final nem se usa
-                Ou vai até no começo
-                Agora é .com
-                Se o saite é muito bom
-                Ele vale um alto preço.
-            </p>
-                <p id="final">
-                   
-                        Pra piorar a liguagem
-                        O emoticom é um risco
-                        Tem símbolo para tudo
+                <p> 
+Estou ficando cansado
+Da tal tecnologia
+Só se fala por e-mail
+Mensagem curta e fria 
+Twitter e Facebook
+Antes que eu caduque
+Vou dizer tudo em poesia. 
                 </p>
-        </section>
-    </main>
+<article>
+        <span>
+<p>
+Não é mais como era antes
+É tudo abreviado
+"Você" só tem duas letras
+O "O" e o "E" foi riscado
+Para declarar o amor
+Basta botar uma flor
+E um coração desenhado.
+</p>
+        </span>
+</article>
+            <p>
+Arroba agora não pesa
+É parte de um endereço
+Ponto final nem se usa
+Ou vai até no começo
+Agora é .com
+Se o saite é muito bom
+Ele vale um alto preço.
+            </p>
+                <p>
+                
+Pra piorar a liguagem
+O emoticom é um risco
+Tem símbolo para tudo
+Ponto e vírgula e um asterisco
+Um beijo significa
+Pra entender como fica
+Decifre esse rabisco.
+                </p> 
+<div id="artigo">
+<span id="final">
+    <p>
+Tenho saudade das cartas
+Escritas com a própria mão
+Mandava no mês de Junho
+Só chegava no Verão
+Mas matava a saudade
+Era texto de verdade
+Nas linhas do coração.
+        </p>
+</span>
+</div>
+<p>
+Agora, escrevo e envio
+Chegando na mesma hora
+Mas quando vou prosear
+A pessoa foi embora
+Abriu outro aplicativo
+O mundo ficou cativo
+Da tecnologia do agora.
+</p>
+<p>
+Felizmente, pra orar
+Não precisa de internet
+Deus escuta todo mundo
+Se quiser, faça esse teste
+Dois pontos são dois joelhos
+Seus lábios são aparelhos
+Deixe que Deus interprete.
+</p>
+    </section>
+</main>
+<footer>
+    <p>Site criado por <a href="https://github.com/GustavoAvilaB" target="_blank" rel="">Gustavo Bandeira</a> para o <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">Curso em Video</a></p>
+</footer>
     
 </body>
 </html>
